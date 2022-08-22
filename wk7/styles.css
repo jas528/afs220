@@ -1,59 +1,11 @@
-* { 
-color: hsl(0, 82%, 34%);
-background-color:#665544;
-background-image: url(image2/egg-tarts-hong-kong-1057241\ \(1\).jpg);
-font-family: Georgia,"Times New Roman", serif;
-text-align: center;}
+img{
+    max-height: 200px;
+}
 .wrapper{
-    width: 720px;
-    margin: 0px auto;
-    .header{
-        margin: 40px 0px 20px 0px;}
-        .entry{
-            width: 220px;
-            float: left;
-            margin: 10px;
-            height: 198px;
-            background-image: url("image/");
-            background-repeat: no-repeat;
-            background-position: bottom;}
-            figure{
-                display: block;
-                width: 202px;
-                height: 170px;
-                background-color: aqua;
-                margin: 0px;
-                padding: 9px;
-                text-align: left;}
-                figure img{
-                    width: 200px;
-                    height: 150px;
-                    border: 1px soild #d6d6d6;}
-                figcaption{
-                background-image: url(image/)no repeat;
-                padding-left: 20px;
-
-
-                }
-            }
-        
-        
-        
-        
-        
-        
-        
-        }
-
-
-
-
-
-
-    }
-
-
-
-
-
+    display:flex ;
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    justify-content: center;
 }

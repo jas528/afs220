@@ -1,0 +1,11 @@
+img{
+    max-height: 200px;
+}
+.wrapper{
+    display:flex ;
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
