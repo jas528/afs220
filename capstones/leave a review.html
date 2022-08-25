@@ -41,7 +41,7 @@
             </li>
 
             <li class="navbar__btn">
-                <a href="#sign-up" class="button" id="sign-up">Sign up</a>
+                <a href="./sign-in/index.html" class="button" id="sign-up">Sign-in</a>
             </li>
         </ul>
         </div>
@@ -49,33 +49,43 @@
     <form action="http://www.example.com/review.php"method="get">
     <fieldset></fieldset>
     <legend>
-        Your Details:
+        How to contact you.
     </legend>
     Name:
-    <input type="text" name="name" size"30" maxlength="100">
+    <input type="text" name="name" size="30" maxlength="100">
     </lable>
     <br/>
     <lable>
       Email:
-    </input type="email" name="email"size="30" maxlength="100">
-     </lable> 
+      <input type="text" name="email" size="30" maxlength="100">
+    </lable> 
     <br/>
     </fieldset>
     <br/>
     <fieldset>
         <legend>
-            Your Review:
+            Please rate us! :
         </legend>
     <p>
 <lable for="hear-about">
-How did you hear about us?
+
 </lable>
 <seclect name="referrer"id="hear-about">
-<option value="google">Google</option>
-<option value="friend"friend>Friend</option>
-<option value="advert"google>Advert</option>
-<option value="other">Other</option>
+    <label for="">
+<option value="google"></option>
+<input type="radio" name="rating"value="Great"/>
+Great
+<option value="friend"friend></option>
+<input type="radio" name="rating"value="Fair"/>
+    Fair
+<option value="advert"google></option>
+<input type="radio" name="rating"value="Poor"/>
+  Poor  
+<option value="other"></option>
+<input type="radio" name="rating"value="Other"/>
+    Other
 
+</label>
     </Select>
 
 </p>
@@ -83,10 +93,11 @@ How did you hear about us?
  Would You Visit Again?
  <br/>
  <lable>
-    <li class="navbar__btn">
-        <a href="./tech.html" class="button"></a>
+    
+       
      </li>
-    <input type="radio" name="rating"value="yes"/>
+    
+     <input type="radio" name="rating"value="yes"/>
     YES
  </lable>
  <label>
@@ -105,7 +116,11 @@ How did you hear about us?
 
 
 <lable for ="comments">
-Comments:
+
+    
+    
+    
+
 </label>
  <br/>
  <textrarea rows="4" cols="40" id="comments">
